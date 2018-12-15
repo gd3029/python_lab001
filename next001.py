@@ -10,9 +10,7 @@ if a.lower() == "a":
 \t - zaliczka na PIT zostaje co miesiąc pomniejszona o 1/12 kwoty zmniejszającej podatek dochodowy, tj. o 46,33 zł,
 \t - pracownik jest zatrudniony w firmie, dla której stopa procentowa składki wypadkowej wynosi 1,8%.""")
 
-
     print("\na | wynagrodzenie brutto będące podstawą wymiaru składek:", aWynagrodzenieBrutto)
-
 
     bEmerytalna = aWynagrodzenieBrutto*0.0976
     bRentowa = aWynagrodzenieBrutto*0.015
@@ -43,8 +41,6 @@ if a.lower() == "a":
 
     i = round(aWynagrodzenieBrutto - b - d - h, 2)
     print("i | wynagrodzenie netto do wypłaty a - b - d - h:", i)
-
-
 
 elif a.lower() == "b":
     kwotaUmowaZlecenie = round(float(input("Podaj kwotę umowy zlecenia: ")), 2)
